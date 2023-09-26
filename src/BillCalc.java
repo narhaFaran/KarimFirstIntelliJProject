@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
-public class HelloWorld {
+public class BillCalc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         DecimalFormat money = new DecimalFormat("0.00"); //help from Henk; format method for rounding
